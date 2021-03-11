@@ -130,6 +130,9 @@ body {
     height: 90px;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .top-nav__item-link,.top-nav__item-link--active {
@@ -261,7 +264,7 @@ body {
 
 /*--------------------------------------------------SlideShow-------------------------------------------------- */
 .slideshow {
-    margin-top: 16px;
+    margin-top: 116px;
 }
 .slideshow-item {
     width: 100%;
